@@ -15,4 +15,4 @@ install:
   - pip install -r requirements.txt
 script:
   - cd decide
-  -./manage.py test --keepdb
+  - manage.py test --keepdb
