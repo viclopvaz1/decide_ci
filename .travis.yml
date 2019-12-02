@@ -18,5 +18,5 @@ script:
 - python ./manage.py test --keepdb
 deploy:
   provider: heroku
-  app: <<your app name>>
+  app: vicente-3
   strategy: git
