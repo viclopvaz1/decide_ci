@@ -73,7 +73,6 @@ MODULES = [
 BASEURL = 'http://heroku-meet-travis.herokuapp.com'
 
 APIS = {
-@@ -82,46 +11,11 @@
     'mixnet': BASEURL,
     'postproc': BASEURL,
     'store': BASEURL,
@@ -121,7 +120,6 @@ WSGI_APPLICATION = 'decide.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-@@ -132,69 +26,6 @@
         'PORT': '5432',
     }
 }
